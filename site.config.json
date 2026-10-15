@@ -1,0 +1,31 @@
+{
+  "brand": "Parsetting",
+  "mode": "preview",
+  "domain": "https://parsetting.ru",
+  "contactEmail": "",
+  "telegramUsername": "denzelcrockker",
+  "seller": {
+    "name": "",
+    "inn": "",
+    "address": ""
+  },
+  "privacyReviewed": false,
+  "termsReviewed": false,
+  "hostingPrivacyText": "Сайт размещается на сервере проекта. Технические журналы хостинга могут содержать IP-адрес, время и запрошенный URL и использоваться для диагностики и защиты. Вопросы об обработке журналов можно направить автору в Telegram @denzelcrockker.",
+  "trialDays": 30,
+  "plans": [
+    {
+      "id": "team",
+      "name": "Команда",
+      "price": 2990,
+      "seats": 5
+    },
+    {
+      "id": "department",
+      "name": "Отделы",
+      "price": 4990,
+      "seats": 15
+    }
+  ],
+  "trialSeats": 15
+}

@@ -1,0 +1,13 @@
+{
+  "name": "parsetting-site",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node build.mjs && node serve.mjs",
+    "build": "node build.mjs --brochure --indexable-brochure",
+    "test": "node config-test.mjs"
+  }
+}
