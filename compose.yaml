@@ -1,0 +1,10 @@
+services:
+  site:
+    build:
+      context: .
+      args:
+        SITE_MODE: ${SITE_MODE:-brochure}
+        SITE_INDEXABLE_BROCHURE: ${SITE_INDEXABLE_BROCHURE:-}
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"
